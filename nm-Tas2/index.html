@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+            color: azure;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background: rgb(66, 66, 66);
+        }
+        #main{
+            text-align: center;
+            display: flex;
+                        justify-content: center;
+        }
+        #main form{
+            line-height: 2;
+            border: 2px solid rgb(0, 0, 0);
+            box-shadow: 2px 7px 10px 6px rgb(187, 187, 187);
+            width: 600px;
+            word-spacing: 1px;
+            height: 500px;
+            border-radius: 15px;
+            align-content: center;
+            background-color: rgb(2, 5, 161);
+            margin-top: 100px;
+        }
+        #main form table{
+            text-align: center;
+        }
+        #main form h3{
+            font-size: 30px;
+            color: rgb(51, 255, 0);
+        }
+        #main form input{
+            padding: 10px;
+            margin: 5px;
+            width: 300px;
+        }
+        #main form .button{
+            margin-top: 35px;
+            width: 180px;
+            background-color: red;
+            color: aqua;
+            font-weight: 700;
+            border-radius: 10px;
+        }
+        #main form .button:hover{
+            background: rgb(185, 18, 18);
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <form action="" method="post">
+            <h3>BASIC FORM</h3><center>
+            <table class="input">
+                <tr><td><label for="user-name">User Name :</label></td>
+                <td><input type="text" placeholder="Name"></td></tr>
+                <tr><td><label for="user-name">Email ID :</label></td>
+                <td><input type="email" placeholder="E-mail"></td></tr>
+                <tr><td><label for="user-name">password :</label></td>
+                <td><input type="password" placeholder="password"></td></tr>
+            </table></center>
+            <input type="button" value="Submit" class="button">
+        </form>
+    </div>
+</body>
+</html>
